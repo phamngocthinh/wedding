@@ -24,12 +24,9 @@ export default function ComingSoonPage() {
         Welcome to Thinh & Ly's Wedding
       </Typography>
 
-      <Typography sx={{ color: 'text.secondary' }}>
-        Our wedding July.23.2023 
-      </Typography>
+      <Typography sx={{ color: 'text.secondary' }}>Our wedding July.23.2023</Typography>
+      <MarriedIllustration sx={{ my: 8, height: 300 }} />
 
-      <MarriedIllustration sx={{ my: 8, height: 240 }} />
-     
       <Stack
         direction="row"
         justifyContent="center"
@@ -44,8 +41,6 @@ export default function ComingSoonPage() {
 
         <TimeBlock label="Seconds" value={seconds} />
       </Stack>
-
-      
     </>
   );
 }
