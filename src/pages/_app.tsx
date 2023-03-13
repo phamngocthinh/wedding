@@ -47,7 +47,7 @@ export default function MyApp(props: MyAppProps) {
       <MotionLazyContainer>
         <ThemeProvider>
           <SnackbarProvider>
-            {/* <ProgressBar /> */}
+            <ProgressBar />
             {getLayout(<Component {...pageProps} />)}
           </SnackbarProvider>
         </ThemeProvider>

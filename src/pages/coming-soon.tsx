@@ -1,7 +1,5 @@
 // next
 import Head from 'next/head';
-// @mui
-import { alpha } from '@mui/material/styles';
 import { Box, Stack, Button, Typography, IconButton, InputAdornment } from '@mui/material';
 // hooks
 import useCountdown from '../hooks/useCountdown';
@@ -19,7 +17,7 @@ export default function ComingSoonPage() {
   return (
     <>
       <Head>
-        <title> Coming Soon | Minimal UI</title>
+        <title> Coming Soon </title>
       </Head>
 
       <Typography variant="h3" paragraph>
