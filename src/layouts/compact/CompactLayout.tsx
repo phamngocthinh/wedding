@@ -25,7 +25,7 @@ export default function CompactLayout({ children }: Props) {
         <Stack
           sx={{
             m: 'auto',
-            maxWidth: 400,
+            maxWidth: 600,
             minHeight: '100vh',
             textAlign: 'center',
             justifyContent: 'center',

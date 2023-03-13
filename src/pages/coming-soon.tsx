@@ -17,18 +17,18 @@ export default function ComingSoonPage() {
   return (
     <>
       <Head>
-        <title> Coming Soon </title>
+        <title> Thinh & Ly's wedding </title>
       </Head>
 
       <Typography variant="h3" paragraph>
-        Coming Soon!
+        Welcome to Thinh & Ly's Wedding
       </Typography>
 
       <Typography sx={{ color: 'text.secondary' }}>
-        We are currently working hard on this page!
+        Our wedding July.23.2023 
       </Typography>
 
-      <MarriedIllustration sx={{ my: 10, height: 240 }} />
+      <MarriedIllustration sx={{ my: 8, height: 240 }} />
      
       <Stack
         direction="row"
